@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- headの定義,titleとcssの紐づけはすでにしている -->
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大学祭demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- bodyの定義 -->
+<body>
+    <!-- ヘッダー ロゴの部分とナビゲーションメニューを作っている -->
+    <header>
+        <div class="logo">大学祭demo</div>
+        <nav class="nav-menu">
+            <a href="#hero">トップ</a>
+            <a href="#events">企画紹介</a>
+            <a href="#access">アクセス</a>
+        </nav>
+    </header>
+    <!-- メインコンテンツの定義 -->
+    <main>
+        <!-- ヒーローセクション -->
+        <!-- ここでは、大学祭のキャッチコピーや大学の画像を表示します -->
+        <section id="hero">
+            <h1>最高の瞬間を、ここで。</h1>
+            <p>2025年度 大学祭へようこそ</p>
+        </section>
+        <!-- 企画紹介セクション -->
+        <!-- ここでは、カードを使って大学祭の企画やイベントを紹介します -->
+        <section id="events">
+            <h2>企画紹介</h2>
+            <!-- カードの箱を作る -->
+            <div class="card-container">
+                <!-- カードの定義 -->
+                <div class="card">
+                    <img src="img/stage.png" alt="ステージ">
+                    <h3>ステージ企画</h3>
+                    <p>圧巻のパフォーマンスを見逃すな！</p>
+                </div>
+                <!--　他のカードも作る-->
+
+            </div>
+        </section>
+        <!-- アクセスセクション -->
+        <!-- ここでは、大学祭の開催場所やアクセス情報を提供します -->
+        <section id="access">
+            <h2>アクセス</h2>
+            <p>皆様のご来場をお待ちしております。</p>
+            <!-- 地図やアクセス情報をここに追加 Google mapの埋め込みもしよう-->
+
+        </section>
+    </main>
+    <!-- フッターの定義 -->
+    <footer>
+        <p>&copy; 2025 大学祭実行委員会</p>
+        <a href="https://twitter.com">twitter</a>
+        <a href="https://facebook.com">facebook</a>
+        <a href="https://instagram.com">instagram</a>
+    </footer>
+    <!-- スクリプトの読み込み -->
+    <script src="script.js"></script>
+</body>
+</html>
